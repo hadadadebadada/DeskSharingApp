@@ -1,0 +1,14 @@
+{
+    "app.header":"Привет <code>{fileName}<code> js and save to reload.",
+    "app.content":"Привет Привет",
+    "app.channel.plug":"Привет Привет Привет {channelName}",
+    "slider.title":"Мой стол твой стол",
+    "navbar.home":"Начинать",
+    "navbar.services":"Сервисы",
+    "navbar.products":"мои бронирования",
+    "narvar.login":"авторизоваться",
+    "navbar.employeefinder":"митарбайтер авторизоваться",
+    "navbar.adminbooking":"Админ резервирование"
+    
+
+}

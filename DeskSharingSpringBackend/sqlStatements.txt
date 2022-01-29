@@ -1,0 +1,147 @@
+INSERT INTO t_building
+VALUES (1, 'Gebauede_A');
+
+INSERT INTO t_building
+VALUES (2, 'Gebauede_B');
+
+INSERT INTO t_building
+VALUES (3, 'Gebauede_C');
+
+INSERT INTO t_office
+VALUES (1, 'Buero_A1',1);
+
+INSERT INTO t_office
+VALUES (2, 'Buero_A2',1);
+
+INSERT INTO t_office
+VALUES (3, 'Buero_A3',1);
+
+INSERT INTO t_office
+VALUES (4, 'Buero_A4',1);
+
+INSERT INTO t_office
+VALUES (5,'Buero_B1',2);
+
+INSERT INTO t_office
+VALUES (6,'Buero_B2',2);
+
+INSERT INTO t_office
+VALUES (7,'Buero_C1',3);
+
+INSERT INTO t_office
+VALUES (8,'Buero_C2',3);
+
+INSERT INTO t_office
+VALUES (9,'Buero_C3',3);
+
+INSERT INTO t_workplace
+VALUES (3,'674903745',1);
+
+INSERT INTO t_workplace
+VALUES (4,'508891615',1);
+
+INSERT INTO t_workplace
+VALUES (5,'863671388',1);
+
+INSERT INTO t_workplace
+VALUES (6,'915072594',2);
+
+INSERT INTO t_workplace
+VALUES (7,'223824232',2);
+
+INSERT INTO t_workplace
+VALUES (8,'772354107',2);
+
+INSERT INTO t_workplace
+VALUES (9,'786179514',2);
+
+INSERT INTO t_workplace
+VALUES (10,'729213180',2);
+
+INSERT INTO t_workplace
+VALUES (11,'674903745',3);
+
+INSERT INTO t_workplace
+VALUES (12,'508891615',3);
+
+INSERT INTO t_workplace
+VALUES (14,'863671388',4);
+
+INSERT INTO t_workplace
+VALUES (15,'915072594',4);
+
+INSERT INTO t_workplace
+VALUES (16,'223824232',4);
+
+INSERT INTO t_workplace
+VALUES (17,'772354107',4);
+
+INSERT INTO t_workplace
+VALUES (19,'786179514',5);
+
+INSERT INTO t_workplace
+VALUES (20,'729213180',5);
+
+INSERT INTO t_workplace
+VALUES (21,'254078485',6);
+
+INSERT INTO t_workplace
+VALUES (22,'256395692',7);
+
+INSERT INTO t_workplace
+VALUES (23,'427433158',7);
+
+INSERT INTO t_workplace
+VALUES (24,'629310591',7);
+
+INSERT INTO t_workplace
+VALUES (25,'327760082',7);
+
+INSERT INTO t_workplace
+VALUES (26,'656056735',7);
+
+INSERT INTO t_workplace
+VALUES (27,'385336424',8);
+
+INSERT INTO t_workplace
+VALUES (28,'436205377',8);
+
+INSERT INTO t_workplace
+VALUES (29,'651428682',9);
+
+INSERT INTO t_workplace
+VALUES (30,'731290102',9);
+
+INSERT INTO t_employee (id,email,firstname,homeoffice,lastname,phonenumber,currentphonenumber,username)
+VALUES (10,'jonathan.gurk@hs-osnabrueck.de','Jonathan',0,'Gurk',1111111,0,'jonathangurk');
+
+INSERT INTO t_employee (id,email,firstname,homeoffice,lastname,phonenumber,currentphonenumber,username)
+VALUES (12,'mohamad.halawi@hs-osnabrueck.de','Mohamad',0,'Halawi',1111111,0,'mohamadhalawi');
+
+INSERT INTO t_employee (id,email,firstname,homeoffice,lastname,phonenumber,currentphonenumber,username)
+VALUES (13,'florian.funke@hs-osnabrueck.de','Florian',1,'Funke',1111111,0,'florianfunke');
+
+INSERT INTO t_employee (id,email,firstname,homeoffice,lastname,phonenumber,currentphonenumber,username)
+VALUES (14,'artur.pfeifer@hs-osnabrueck.de','Artur',1,'Pfeifer',1111111,0,'arturpfeifer');
+
+INSERT INTO t_employee (id,email,firstname,homeoffice,lastname,phonenumber,currentphonenumber,username)
+VALUES (18,'','Test',1,'Test',12344566,0,'test');
+
+insert into t_user(id,username,password,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,is_admin)
+values (1,'admin','password',1,1,1,1,1);
+
+insert into t_user(id,username,password,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,is_admin)
+values (2,'jonathangurk','$2a$12$M2qERZNSEcXCu/IjqOmOxuD4q4apukHOPbZqf3yEka0W5AF5jhnfS',1,1,1,1,0);
+
+insert into t_user(id,username,password,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,is_admin)
+values (3,'mohamadhalawi','$2a$12$M2qERZNSEcXCu/IjqOmOxuD4q4apukHOPbZqf3yEka0W5AF5jhnfS',1,1,1,1,0);
+
+insert into t_user(id,username,password,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,is_admin)
+values (4,'florianfunke','$2a$12$M2qERZNSEcXCu/IjqOmOxuD4q4apukHOPbZqf3yEka0W5AF5jhnfS',1,1,1,1,0);
+
+insert into t_user(id,username,password,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,is_admin)
+values (5,'arturpfeifer','$2a$12$M2qERZNSEcXCu/IjqOmOxuD4q4apukHOPbZqf3yEka0W5AF5jhnfS',1,1,1,1,0);
+
+insert into t_user(id,username,password,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,is_admin)
+values (6,'test','$2a$12$M2qERZNSEcXCu/IjqOmOxuD4q4apukHOPbZqf3yEka0W5AF5jhnfS',1,1,1,1,0);
+

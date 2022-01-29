@@ -1,0 +1,14 @@
+{
+    "app.header":"Hola <code>{fileName}<code> js y la cucaracha.",
+    "app.content":"Hola Amigo",
+    "app.channel.plug":"Aprende React con {channelName}",
+    "slider.title":"MI MESA ES TU MESA",
+    "navbar.home":"Comenzar",
+    "navbar.services":"Servicios",
+    "navbar.products":"Mi Reservas",
+    "narvar.login":"Acceso",
+    "navbar.employeefinder":"Buscar Colega",
+    "navbar.adminbooking":"Admin Reserva"
+    
+
+}

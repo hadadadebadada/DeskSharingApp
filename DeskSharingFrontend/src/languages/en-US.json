@@ -1,0 +1,13 @@
+{
+    "app.header":"Edit <code>{fileName}<code> js and save to reload.",
+    "app.content":"sup bro ",
+    "app.channel.plug":" brought to you by {channelName}",
+    "slider.title":"My table is your table",
+    "navbar.home":"Home",
+    "navbar.services":"Services",
+    "navbar.products":"My Bookings",
+    "navbar.login":"Sign Up",
+    "navbar.employeefinder":"Employee Search",
+    "navbar.adminbooking":"Admin Booking"
+    
+}
